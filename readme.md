@@ -1,0 +1,1 @@
+These are some scripts I'm playing with as I try out Windows Server Containers and Docker. Nothing for production use yet ;)
