@@ -7,7 +7,7 @@ text for the pseudo-TTY.
 
 Steps to build the image:
 ```
-TODO: git clone ...
+git clone https://github.com/PatrickLang/Docker-Experiments.git
 docker build -t pythondev .
 docker run -it pythondev cmd
 ```
