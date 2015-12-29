@@ -31,3 +31,5 @@ Type "help", "copyright", "credits" or "license" for more information.
 LookupError: unknown encoding: cp65001
 >>>
 ```
+
+It looks like this encoding was added to Python 3.3 - see [Issue 13216](https://bugs.python.org/issue13216)
