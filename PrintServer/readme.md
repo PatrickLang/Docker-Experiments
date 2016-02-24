@@ -1,4 +1,6 @@
-This is an experiment in getting a print server set up in a Windows Server Core container
+This is an experiment in getting a print server set up in a Windows Server Core container.
+I haven't finished testing it, but I'm pretty sure it's going to fail. The 'spooler' service
+is missing.
 
 Steps:
 1. Add role
