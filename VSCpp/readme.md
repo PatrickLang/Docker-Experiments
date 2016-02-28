@@ -1,5 +1,19 @@
 This builds, but hasn't been tested yet.
 
+
+## Building the image
+Run this to build an image containing the Visual Studio 2015 compilers.
+```
+docker build -t vscpp .
+```
+
+## Using this image
+
+
+## Progress
+
+
+### Image Size
 VisualCppBuildTools_Full.exe is a stub that downloads more files as needed to complete the installation. Network is required.
 
 The resulting virtual size of the image is ~3.5GB. Hopefully it can be trimmed down further.
