@@ -14,5 +14,8 @@
     "netcoreapp1.0": {
       "imports": "dnxcore50"
     }
+  },
+  "commands": {
+        "web": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.Kestrel --server.urls http://0.0.0.0:5000",
   }
 }

@@ -1,4 +1,4 @@
-FROM dotnetrc2
+FROM dotnet:1.0.0-rc2
 ADD .containerbuild/ /hello
 WORKDIR c:/hello
-CMD c:\dotnetrc2\dotnet.exe run
+CMD dotnet.exe CoreAsp-ServerCore.dll
