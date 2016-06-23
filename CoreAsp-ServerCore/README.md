@@ -20,21 +20,22 @@ cd $oldwd
 ```
 
 ## Build
+This will build the sample core asp.net app locally:
+
 ```
 dotnet restore
-```
-
-## Run
-```
 dotnet publish -o .containerbuild
 ```
 
 ## Build Container
+Now that all the binaries are built, put them into a container image
+
 ```
 docker build -t hello .
 ```
 
 ## Run Container
+Now, run the container
 ```
 docker run -p 5000:5000 -it hello
 ```
