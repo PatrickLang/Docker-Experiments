@@ -1,5 +1,14 @@
 This is based off the [Getting Started example](https://docs.asp.net/en/1.0.0-rc2/getting-started.html) for Core Asp.net.
 
+## Prerequisites
+
+### Install 1.0.0-preview1 sdk on your laptop
+```
+Invoke-WebRequest https://go.microsoft.com/fwlink/?LinkID=798398 -outfile DotNetCore.1.0.0.RC2-SDK.Preview1-x64.exe
+.\DotNetCore.1.0.0.RC2-SDK.Preview1-x64.exe
+```
+
+
 ## Build .net core container image for server core
 ```
 mkdir dotnet-docker
