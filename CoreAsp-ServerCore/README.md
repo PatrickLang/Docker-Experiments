@@ -9,16 +9,6 @@ Invoke-WebRequest https://go.microsoft.com/fwlink/?LinkID=798398 -outfile DotNet
 ```
 
 
-## Build .net core container image for server core
-```
-mkdir dotnet-docker
-wget https://raw.githubusercontent.com/PatrickLang/dotnet-docker/windowsImages/1.0.0-rc2/windowsservercore/x64/core/Dockerfile -outfile dotnet-docker\Dockerfile
-$oldwd = pwd
-cd dotnet-docker
-docker build -t dotnet:1.0.0-rc2 .
-cd $oldwd
-```
-
 ## Build
 This will build the sample core asp.net app locally:
 
