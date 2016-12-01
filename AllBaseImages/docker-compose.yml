@@ -9,6 +9,15 @@ services:
   nano-nov:
     image: microsoft/nanoserver:10.0.14393.447
     tty: true
+  core-sept:
+    image: microsoft/windowsservercore:10.0.14393.206
+    tty: true
+  core-oct:
+    image: microsoft/windowsservercore:10.0.14393.321
+    tty: true
+  core-nov:
+    image: microsoft/windowsservercore:10.0.14393.447
+    tty: true
 
 networks:
   default:
