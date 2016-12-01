@@ -1,0 +1,16 @@
+version: '2.1'
+services:
+  nano-sept:
+    image: microsoft/nanoserver:10.0.14393.206
+    tty: true
+  nano-oct:
+    image: microsoft/nanoserver:10.0.14393.321
+    tty: true
+  nano-nov:
+    image: microsoft/nanoserver:10.0.14393.447
+    tty: true
+
+networks:
+  default:
+    external:
+      name: nat
